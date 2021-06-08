@@ -1,0 +1,241 @@
+/*navigation*/
+.white-line li{
+  color: white;
+  padding: 10px;
+  transition: border-bottom 3s;
+}
+
+.white-line li{
+ padding: 5px 10px;
+}
+
+.white-line a{
+ color: white;
+}
+  /*for thanks.html*/
+.child .white-line a{
+  color: black;
+}
+
+.child .white-line a::after{
+  background: var(--primary-color);
+  height: 3px;
+}
+/*end of thanks.html*/
+
+.white-line a::after{
+ content: '';
+ width: 0;
+ height: 2px;
+ background: white;
+ display: block;
+ margin: 0 auto;
+ transition: all 0.5s;
+ 
+}
+ /*navigation ends*/
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+  height: 100%;
+}
+.card {
+  background: white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  color: #333;
+}
+
+.btn {
+  border: none;
+  display: inline-block;
+  color: white;
+  padding: 10px 30px;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}
+
+.btn-outline {
+  border: 2px solid white;
+  background-color: transparent;
+}
+
+/*alert*/
+.alert{
+  background-color: var(--light-color);
+  padding: 10px 20px;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.alert-success{
+  background-color: var(--success-color);
+  color: white;
+}
+
+.alert-error{
+  background-color: var(--error-color);
+  color: white;
+}
+
+.alert i{
+  margin-right: 10px;
+}
+
+.container.flex {
+  justify-content: space-between;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.grid.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*text-sizes*/
+.lead {
+  font-size: 20px;
+}
+.sm {
+  font-size: 1rem;
+}
+.md {
+  font-size: 2rem;
+}
+.lg {
+  font-size: 3rem;
+}
+
+.xl {
+  font-size: 4rem;
+}
+/*background & colors*/
+.bg-primary,
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+.bg-secondary,
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: white;
+}
+.bg-dark,
+.btn-dark {
+  background-color: var(--dark-color);
+  color: white;
+}
+.bg-light,
+.btn-light {
+  background-color: var(--light-color);
+  color: #333;
+}
+
+/*text-colors*/
+.text-primary{
+color: var(--primary-color);
+}
+
+.text-secondary{
+color: var(--secondary-color);
+}
+
+.text-dark{
+color: var(--dark-color);
+}
+
+.text-light{
+color: var(--light-color);
+}
+
+/*margin*/
+.my-1 {
+  margin: 1rem 0;
+}
+.my-2 {
+  margin: 1.5rem 0;
+}
+.my-3 {
+  margin: 2rem 0;
+}
+.my-4 {
+  margin: 2.5rem 0;
+}
+.my-5 {
+  margin: 3rem 0;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+.m-2 {
+  margin: 1.5rem;
+}
+.m-3 {
+  margin: 2rem;
+}
+.m-4 {
+  margin: 2.5rem;
+}
+.m-5 {
+  margin: 3rem;
+}
+
+/*padding*/
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 1.5rem 0;
+}
+.py-3 {
+  padding: 2rem 0;
+}
+.py-4 {
+  padding: 2.5rem 0;
+}
+.py-5 {
+  padding: 3rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+.p-2 {
+  padding: 1.5rem;
+}
+.p-3 {
+  padding: 2rem;
+}
+.p-4 {
+  padding: 2.5rem;
+}
+.p-5 {
+  padding: 3rem;
+}
